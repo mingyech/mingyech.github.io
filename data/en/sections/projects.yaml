@@ -1,0 +1,77 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Class Project
+  filter: "class"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Network File Server
+  #logo: /images/sections/projects/kubernetes.png
+  role: Team member
+  timeline: "April 2022"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Worked in a team to implement a multi-threaded network file server in C++. Clients can use the file server by interacting with it via network messages. "
+  tags: ["class"]
+- name: Virtual Memory Pager
+  #logo: /images/sections/projects/kubernetes.png
+  role: Team member
+  timeline: "March 2022"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Worked in a team to design and implement a virtual memory pager which manages application processes' virtual address spaces in C++. "
+  tags: ["class"]
+- name: Thread Library
+  #logo: /images/sections/projects/kubernetes.png
+  role: Team member
+  timeline: "Feburary 2022"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Worked in a team to design and implement a thread library using linux ucontex_t functions in C++. "
+  tags: ["class"]
+- name: Network Anomaly Detector
+  #logo: /images/sections/projects/kubernetes.png
+  role: Team member
+  timeline: "October 2021"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://eecs388.org/archive/f21/projects/networking.html#part-2-anomaly-detection"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Created a program that analyzes network packet files to detect port scanning and ARP spoofing activities in the network. Implemented in Go and made heavy use of the [gopacket](https://godoc.org/github.com/google/gopacket) networking libraries."
+  tags: ["class"]
+- name: Static Website Generator 
+  #logo: /images/sections/projects/kubernetes.png
+  role: Owner
+  timeline: "Januaray 2022"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://eecs388.org/archive/f21/projects/networking.html#part-2-anomaly-detection"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Created a static website generator that generate static websites similar to Instagram. Wrote website templates in Jinja and created a Python program that takes post contents in JSON files and generates them automatically to static HTML from the templates. "
+  tags: ["class"]
+- name: Nutrify
+  #logo: /images/sections/projects/kubernetes.png
+  role: Team member
+  timeline: "March 2022 - April 2022"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://mingyech.github.io/eecs493hw3/login.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Worked in a team to design and implement a web app that tracks food eaten throughout the day and calculate nutritional information. Uses the [OpenFoodFacts API](https://world.openfoodfacts.org/data) for data and the [Vue.js](https://vuejs.org/) framework."
+  tags: ["class", "hobby"]
+- name: Jellyfin Android Client
+  logo: /images/sections/projects/jellyfin.svg
+  role: Contributor
+  timeline: "April 2022 - Present"
+  #repo: https://github.com/jellyfin/jellyfin-android # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://github.com/jellyfin/jellyfin-android"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Contributed to the Jellyfin android client written in Kotlin, fixing bugs and implementing features. "
+  tags: ["hobby"]

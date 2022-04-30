@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: University of Michigan - Flint, Department of Computer Science, Engineering, and Physics
+    url: "https://umflint.edu"
+    location: Flint, MI, USA
+    # company overview
+    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Research Assistant
+    start: Nov 2019
+    end: Aug 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Conducted research in Dr. Quamrul Mazumder's research team on engineering-related topics
+    - Responsible for statistical analysis of research data and writing research papers
+    - Co-authored [research paper](https://doi.org/10.18260/1-2--34434) published at ASEE research conference

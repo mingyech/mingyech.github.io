@@ -1,0 +1,49 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bachelor of Science in Engineering in Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2020-2023
+  institution:
+    name: University of Michigan - Ann Arbor
+    url: "https://umich.edu"
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.67
+    outOf: 4.00
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Software Engineering
+    - name: Introduction to Operating Systems
+    - name: User Interface Development
+    - name: Introduction to Computer Security
+    - name: Introduction to Computer Organization
+    - name: Foundations of Computer Science
+    - name: Data Structures and Algorithms
+    - name: Discrete Mathematics
+    - name: Technical Communication for Electrical and Computer Science
+- name: 
+  icon: fa-university
+  timeframe: 2019-2020
+  institution:
+    name: University of Michigan - Flint
+    url: "https://umflint.edu"
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.00
+    outOf: 4.00
+  extracurricularActivities:
+  - Baja SAE team, website subteam
+  - Worked as research assistant

@@ -1,0 +1,34 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: C++
+  logo: /images/sections/skills/cpp.svg
+  summary: "Experience with using C/C++ in projects."
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Experience with using Python in projects."
+
+- name: Go
+  logo: /images/sections/skills/go.svg
+  summary: "Experience with using Go in projects."
+  url: "https://golang.org/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.svg
+  summary: "Used as the main operating system. Experience with writing shell scripts."
+
+- name: Git
+  logo: /images/sections/skills/git.svg
+  summary: "Experienced with git-based development, mostly on GitHub."
+  url: "https://git-scm.com/"
