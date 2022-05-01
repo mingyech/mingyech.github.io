@@ -59,14 +59,14 @@ projects:
   #url: "https://eecs388.org/archive/f21/projects/networking.html#part-2-anomaly-detection"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: "Created a static website generator that generate static websites similar to Instagram. Wrote website templates in Jinja and created a Python program that takes post contents in JSON files and generates them automatically to static HTML from the templates. "
   tags: ["class"]
-- name: Nutrify
-  #logo: /images/sections/projects/kubernetes.png
-  role: Team member
-  timeline: "March 2022 - April 2022"
-  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://mingyech.github.io/eecs493hw3/login.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: "Worked in a team to design and implement a web app that tracks food eaten throughout the day and calculate nutritional information. Uses the [OpenFoodFacts API](https://world.openfoodfacts.org/data) for data and the [Vue.js](https://vuejs.org/) framework."
-  tags: ["class", "hobby"]
+#- name: Nutrify
+#  #logo: /images/sections/projects/kubernetes.png
+#  role: Team member
+#  timeline: "March 2022 - April 2022"
+#  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+#  url: "https://mingyech.github.io/eecs493hw3/login.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+#  summary: "Worked in a team to design and implement a web app that tracks food eaten throughout the day and calculate nutritional information. Uses the [OpenFoodFacts API](https://world.openfoodfacts.org/data) for data and the [Vue.js](https://vuejs.org/) framework."
+#  tags: ["class", "hobby"]
 - name: Jellyfin Android Client
   logo: /images/sections/projects/jellyfin.svg
   role: Contributor
