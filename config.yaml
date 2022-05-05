@@ -39,6 +39,8 @@ params:
   enableBlogPost: false
   enableHome: false
 
+  background: "images/site/background.png"
+
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
